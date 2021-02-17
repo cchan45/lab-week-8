@@ -18,10 +18,12 @@ nav {
     top: 10px;
     color: #e5dada;
 }
-
+.text{
+    width: 500px;
+}
 .img {
-    float: right;
-    width: 600px;
-    height: 800px;
+    float: left;
+    width: 400px;
+    height: 500px;
 }
 
