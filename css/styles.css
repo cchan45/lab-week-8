@@ -1,16 +1,27 @@
 * {
     color: #e5dada;
 }
+
 body {
     background-color: #e5dade;
     font-family: 'PT Sans', sans-serif ;
     font-weight: 400;
 }
-
 h1 {
     color: #02040f;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #e5dada;
+    text-decoration: underline;
+}
+li {
+    padding-right: 1rem;
+    display: inline-block;
 }
 .index {
     color: #e5dade;
@@ -29,13 +40,12 @@ h2 {
 }
 .text{
     color: #02040f;
-    width: 500px;
+    width: 800px;
 }
 .img {
     float: left;
     width: 400px;
-    height: 500px;
-
+    margin-right: 10px;
 }
 
 .em {
@@ -46,9 +56,7 @@ h2 {
     color: #02040f;
 }
 
-.links {
-    color: #02040f;
-}
 section {
     background-color: #04020f;
 }
+
