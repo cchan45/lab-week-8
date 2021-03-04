@@ -68,7 +68,7 @@ section {
 }
 
 .footer {
-    height: 25px;
+    height: 30px;
     background-color: #edddd0;
     padding: 1rem;
 }
@@ -85,7 +85,7 @@ section {
     display: grid;
     grid-template-rows: 8rem 1fr 10rem;
     grid-template-columns: 400px 1fr;
-    gap: 5px;
+    gap: 7px;
     width: 100vw;
     height: 75vh;
 }
