@@ -31,6 +31,7 @@ li {
 }
 
 .index {
+    width: 300px;
     color: #334259;
 }
 header{
@@ -105,11 +106,12 @@ section {
 
 .index_header {
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 15rem 1fr;
     grid-template-rows: 150px 1fr;
 }
 
 .sidebar_index {
     width: 250px;
     grid-column-start: 1;
+    background-color: #e5e5dc;
 }
