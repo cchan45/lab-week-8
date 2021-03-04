@@ -85,8 +85,7 @@ section {
     display: grid;
     grid-template-rows: 8rem 1fr 10rem;
     grid-template-columns: 400px 1fr;
-    gap: 7px;
-    width: 100vw;
+    gap: 6px;
     height: 75vh;
 }
 
@@ -98,7 +97,7 @@ section {
 }
 
 .img {
-    width: 400px;
+    width: 370px;
     margin-right: 10px;
     grid-column-start: 1;
     grid-row-start: 2;
