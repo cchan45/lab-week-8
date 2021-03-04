@@ -1,62 +1,115 @@
 * {
-    color: #e5dada;
+    color: #334259;
+    font-family: 'PT Sans', sans-serif ;
 }
 
 body {
-    background-color: #e5dade;
+    background-color: #334259;
     font-family: 'PT Sans', sans-serif ;
     font-weight: 400;
 }
 h1 {
-    color: #02040f;
+    color: #edddd0;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
 }
+
+h2 {
+    color: #edddd0;
+}
+
 a {
     text-decoration: none;
 }
 a:hover{
-    color: #e5dada;
+    color: #334259;
     text-decoration: underline;
 }
 li {
     padding-right: 1rem;
     display: inline-block;
 }
+
 .index {
-    color: #e5dade;
+    color: #334259;
 }
 header{
-    background-color: #002642;
+    background-color: #edddd0;
 }
-h2 {
-    color: #02040f;
-}
+
 .navbar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10px;
-    background-color: #002642;
-}
-.text{
-    color: #02040f;
-    width: 800px;
-}
-.img {
-    float: left;
-    width: 400px;
-    margin-right: 10px;
-}
-
-.em {
-    color: #02040f;
-}
-
-.strong {
-    color: #02040f;
+    height: 50px;
+    background-color: #edddd0;
 }
 
 section {
-    background-color: #04020f;
+    display: flex;
+    background-color: #e5e5dc;
 }
 
+.sidebar {
+    width: 300px;
+}
+
+.courseh1 {
+    color: #334259;
+}
+
+.courses {
+    display: flex;
+    color: #334259;
+}
+
+.content {
+    background-color: #334259;
+    height: 815px;
+    flex-grow: 5;
+}
+
+.footer {
+    height: 25px;
+    background-color: #edddd0;
+    padding: 1rem;
+}
+
+.em {
+    color: #edddd0;
+}
+
+.strong {
+    color: #edddd0;
+}
+
+.about {
+    display: grid;
+    grid-template-rows: 8rem 1fr 10rem;
+    grid-template-columns: 400px 1fr;
+    gap: 5px;
+    width: 100vw;
+    height: 75vh;
+}
+
+.text{
+    color: #edddd0;
+    width: 800px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.img {
+    width: 400px;
+    margin-right: 10px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.index_header {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    grid-template-rows: 150px 1fr;
+}
+
+.sidebar_index {
+    width: 250px;
+    grid-column-start: 1;
+}
